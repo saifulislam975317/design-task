@@ -2,15 +2,15 @@ import people from "../../assets/images/people-image.png";
 import peopleBg from "../../assets/images/people.png";
 const PeopleSay = () => {
   return (
-    <div className="flex items-center rounded-md  py-8 gap-5 bg-[#414246] text-white">
-      <div className="w-1/2 flex items-center px-8 ">
-        <img className="w-[200px]" src={people} alt="" />
+    <div className="lg:flex items-center rounded-md  py-8 gap-5 bg-[#414246] text-white">
+      <div className="lg:w-1/2 w-full lg:flex items-center px-8 ">
+        <img className="lg:w-[200px] w-full" src={people} alt="" />
         <p className="text-4xl">
           What <span className="text-orange-500"> PEOPLE</span> have been saying
         </p>
       </div>
       <div
-        className="text-white w-1/2 bg-cover bg-no-repeat p-4  mr-24"
+        className="text-white lg:w-1/2 w-full mt-4 bg-cover bg-no-repeat p-4  mr-24"
         style={{ backgroundImage: `url(${peopleBg})` }}
       >
         <p>

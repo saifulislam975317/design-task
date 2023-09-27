@@ -3,9 +3,9 @@ import findImg from "../../assets/images/findImg.png";
 const Publishers = () => {
   return (
     <div className="my-12">
-      <div className="flex  items-center justify-center relative">
+      <div className="flex gap-2  items-center justify-center relative">
         <img src={pubImg} alt="" />
-        <h1 className="absolute ml-[1rem] text-3xl uppercase">
+        <h1 className="absolute ml-[1rem] lg:text-3xl  lg:uppercase ">
           For Publishers
         </h1>
         <span className="absolute ml-[65%]">

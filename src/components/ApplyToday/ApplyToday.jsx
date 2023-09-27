@@ -7,7 +7,7 @@ const ApplyToday = () => {
     >
       <h1 className="text-center text-4xl font-bold">
         Apply Today To Become Part of
-        <span className="text-orange-600">Monster Ads</span>
+        <span className="text-orange-600 ml-2">Monster Ads</span>
       </h1>
     </div>
   );

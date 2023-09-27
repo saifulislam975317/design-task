@@ -7,18 +7,21 @@ const Navbar = () => {
     <>
       <li>
         <Link to="/">
-          <FaUsers className="text-lg" /> ADVERTISERS
+          <FaUsers className="text-lg w-[50px] h-[50px] border-4 p-2 rounded-full bg-white text-black" />
+          ADVERTISERS
         </Link>
       </li>
       <li>
         <Link to="/">
-          <BsArrowsAngleExpand className="text-lg" /> PUBLISHERS
+          <BsArrowsAngleExpand className="text-2xl w-[50px] h-[50px] border-4 py-2 rounded-full bg-white text-black" />
+          PUBLISHERS
         </Link>
       </li>
 
       <li>
         <Link to="/contact">
-          <AiOutlineMail className="text-lg" /> CONTACT US
+          <AiOutlineMail className="text-lg w-[50px] h-[50px] border-4 p-2 rounded-full bg-white text-black" />{" "}
+          CONTACT US
         </Link>
       </li>
     </>
