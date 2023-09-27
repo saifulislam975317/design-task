@@ -1,13 +1,9 @@
-import ApplyBanner from "../../assets/images/applyBanner.png";
 const ApplyToday = () => {
   return (
-    <div
-      className="text-white bg-cover bg-no-repeat  p-16"
-      style={{ backgroundImage: `url(${ApplyBanner})` }}
-    >
+    <div className="text-white bg-[#101010]  p-16">
       <h1 className="text-center text-4xl font-bold">
         Apply Today To Become Part of
-        <span className="text-orange-600 ml-2">Monster Ads</span>
+        <span className="text-orange-600 ml-2">Perfume Ads</span>
       </h1>
     </div>
   );

@@ -1,25 +1,23 @@
-import pubImg from "../../assets/images/pubImg.png";
-import findImg from "../../assets/images/findImg.png";
+import findImg from "../../assets/images/findMore.avif";
+import findPro from "../../assets/images/morePro.avif";
 const Publishers = () => {
   return (
-    <div className="my-12">
-      <div className="flex gap-2  items-center justify-center relative">
-        <img src={pubImg} alt="" />
-        <h1 className="absolute ml-[1rem] lg:text-3xl  lg:uppercase ">
-          For Publishers
-        </h1>
-        <span className="absolute ml-[65%]">
-          <img className="w-[200px]" src={findImg} alt="" />
-        </span>
+    <div className="lg:flex items-center bg-[#191919] text-white">
+      <div className="lg:w-1/3">
+        <img className="lg:w-[400px] w-full h-[200px]" src={findImg} alt="" />
       </div>
-      <p className=" flex justify-center ml-[25%]">
-        Publishers join MonsterAds because we offer the top rates in the <br />
-        industry on hundreds of offers. They stay due to the first class <br />
-        support, accurate custom tracking, Net 5 payouts and EPCs that blow away
-        <br />
-        the competition. Ready to join the BEST of the BEST publishers in the
-        industry?
-      </p>
+      <div className="lg:w-1/3 w-full">
+        <p className="px-4 my-4">
+          In today's connected world, discovering your ideal fragrance has never
+          been easier. Online perfume shopping offers customers a vast and
+          diverse selection of scents to explore from the comfort of their
+          homes. With detailed descriptions, customer reviews, and even virtual
+          scent testers, navigating the world of perfumes is a sensory delight.
+        </p>
+      </div>
+      <div className="lg:w-1/3 ">
+        <img className="lg:w-[500px] w-full h-[200px]" src={findPro} alt="" />
+      </div>
     </div>
   );
 };

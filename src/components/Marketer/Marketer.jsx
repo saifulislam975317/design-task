@@ -1,33 +1,25 @@
-import logo from "../../assets/images/logo-two-2.png";
-import applyImg from "../../assets/images/applyNow.png";
-import uImage from "../../assets/images/uImage.png";
+import perfume from "../../assets/images/perfumeImg.avif";
 const Marketer = () => {
   return (
     <div className="lg:flex  items-center justify-evenly text-[#cccccc] bg-[#424242] ">
       <div>
         <img
-          className="lg:w-[200px] lg:h-[200px] w-full mb-0 pb-0"
-          src={logo}
+          className="lg:w-[400px] lg:h-[300px] w-full mb-0 pb-0"
+          src={perfume}
           alt=""
         />
       </div>
-      <div>
+      <div className="p-4">
         <h1 className="text-4xl p-4">
-          Are <span className="text-orange-500">YOU</span> an elite marketer?
+          Enchanting Elegance Unveil Your Signature Scent with Our Exquisite
+          Perfume Collection!
         </h1>
         <h2 className="text-4xl p-4">
-          Do you have the results to
-          <span className="text-orange-500">PROVE </span> it?
+          Do you want to buy best
+          <span className="text-orange-500 ml-2">perfume? </span>
+          so wait for what?
         </h2>
-        <p className="text-2xl p-4">
-          Apply Today & see if you have what it takes!
-        </p>
-      </div>
-      <div className="">
-        <button className="appBtn p-4">
-          <img className=" btnImg  my-4" src={applyImg} alt="" />
-        </button>
-        <img src={uImage} alt="" />
+        <button className="btn btn-neutral">Order Now</button>
       </div>
     </div>
   );

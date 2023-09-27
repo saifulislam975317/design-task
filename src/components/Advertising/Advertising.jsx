@@ -1,11 +1,11 @@
 import { Parallax } from "react-parallax";
-import advBanner from "../../assets/images/advertisingBanner.jpg";
+import advBanner from "../../assets/images/banner2.jpg";
 const Advertising = () => {
   return (
     <Parallax
-      className="w-full h-[600px] paraLex"
+      className="w-full h-[500px] paraLex"
       bgImage={advBanner}
-      strength={500}
+      strength={700}
     ></Parallax>
   );
 };

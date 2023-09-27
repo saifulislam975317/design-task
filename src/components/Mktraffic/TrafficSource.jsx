@@ -1,4 +1,4 @@
-import mkImg from "../../assets/images/mkImg.png";
+import mkImg from "../../assets/images/social.avif";
 import mkBg from "../../assets/images/money-bg.png";
 const TrafficSource = () => {
   return (
@@ -8,12 +8,12 @@ const TrafficSource = () => {
     >
       <div className="mb-8">
         <h1 className="text-white text-3xl text-bold">
-          turn all <span className="text-orange-500">YOUR</span> traffic sources
-          into money making machines
+          Scented Seduction Discover Irresistible Fragrances on Facebook Ads
+          Today for perfume!
         </h1>
       </div>
       <div>
-        <img className="lg:w-[60%] w-full" src={mkImg} alt="" />
+        <img className="lg:w-[60%] lg:h-full w-full" src={mkImg} alt="" />
       </div>
     </div>
   );

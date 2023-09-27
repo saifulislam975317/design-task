@@ -1,33 +1,25 @@
 import { Link } from "react-router-dom";
-import { FaUsers } from "react-icons/fa";
-import { BsArrowsAngleExpand } from "react-icons/bs";
-import { AiOutlineMail } from "react-icons/ai";
+
 const Navbar = () => {
   const navOption = (
     <>
       <li>
-        <Link to="/">
-          <FaUsers className="text-lg w-[50px] h-[50px] border-4 p-2 rounded-full bg-white text-black" />
-          ADVERTISERS
-        </Link>
+        <Link to="/">Home</Link>
       </li>
       <li>
-        <Link to="/">
-          <BsArrowsAngleExpand className="text-2xl w-[50px] h-[50px] border-4 py-2 rounded-full bg-white text-black" />
-          PUBLISHERS
-        </Link>
+        <Link to="/">Advertisers</Link>
+      </li>
+      <li>
+        <Link to="/">Publishers</Link>
       </li>
 
       <li>
-        <Link to="/contact">
-          <AiOutlineMail className="text-lg w-[50px] h-[50px] border-4 p-2 rounded-full bg-white text-black" />{" "}
-          CONTACT US
-        </Link>
+        <Link to="/contact">Contact us</Link>
       </li>
     </>
   );
   return (
-    <div className="navbar bg-[#1375BC] text-white">
+    <div className="navbar bg-slate-500  text-white">
       <div className="navbar-start">
         <div className="dropdown">
           <label tabIndex={0} className="btn btn-ghost lg:hidden">

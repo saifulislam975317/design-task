@@ -1,11 +1,11 @@
 import { Parallax } from "react-parallax";
-import indBg from "../../assets/images/industryBg.jpg";
+import indBg from "../../assets/images/banner1.jpg";
 const Industry = () => {
   return (
     <Parallax
-      className="w-full h-[600px] paraLex"
+      className="w-full h-[500px] paraLex"
       bgImage={indBg}
-      strength={-600}
+      strength={700}
     ></Parallax>
   );
 };
