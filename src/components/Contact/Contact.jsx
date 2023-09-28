@@ -40,7 +40,7 @@ const Contact = () => {
             ></textarea>
             <div className="lg:flex justify-between items-center">
               <ReCAPTCHA
-                sitekey="6Lf0WFgoAAAAACndyRUOPplXXQ229ZzThBWJnchC"
+                sitekey="6LdXdFwoAAAAAFJkej4tULhU4r9PQlOGyni8mUr5"
                 onChange={onChange}
               />
               <input
