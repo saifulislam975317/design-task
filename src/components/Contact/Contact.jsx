@@ -64,6 +64,18 @@ const Contact = () => {
               someone will respond as soon as possible.
             </p>
           </p>
+          <p className=" ">
+            This perfume is pure magic in a bottle! Its scent is both alluring
+            and long-lasting, turning heads and earning me compliments wherever
+            I go. The fragrance perfectly encapsulates my style and personality.
+            The elegant packaging is an added bonus, making it a fantastic gift
+            option. This perfume has become my signature scent, and I can't
+            imagine a day without it. Worth every penny!
+            <p className="my-2">
+              If you ever can’t reach our staff online, leave a message here and
+              someone will respond as soon as possible.
+            </p>
+          </p>
           <h1 className="text-2xl my-2">Or mail us directly:</h1>
           <h3>
             PERFUME ADS LLC 4905 34TH ST S STE 364 ST PETERSBURG, FL 33711
